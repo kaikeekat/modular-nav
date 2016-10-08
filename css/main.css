@@ -30,18 +30,36 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
+}
+
+nav, div {
+  display: inline-block;
+  text-align: right;
+}
+
 .button {
   display: inline-block;
+  color: #0074d9;
+  text-align: left;
+  padding: .3em;
 }
 
-h1 {
-  display: inline-block;
-}
-
-nav {
-  display: inline-block;
+li a:hover {
+  color: #fff;
+  background-color: #0074d9;
 }
 
 header {
   background-color: #e2e2e2;
+}
+
+div {
+  display: inline-block;
 }
